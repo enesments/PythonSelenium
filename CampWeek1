@@ -1,0 +1,24 @@
+#Python Selenium Kursu 1.Hafta 1.Ödev
+#1.Ödev
+#String : Metinsel veri tipi
+#Int : Sayısal veri tipi
+#Float : Ondalıklı sayı tipi
+#Bool : Bir değerin true ya da false döndüren veri tipi
+#List : Birden çok veriyi tutan veri tipi
+#Dictionary : Key ve Value değerlerini tutar
+# Binary veri tipleri : bytes,bytearray, memoryview
+
+
+# Kategori, Eğitmen String  veri tipine girer ve List içerir.(İçlerinde birden fazla değer bulunur.)
+# Önceki ders , Bitir ve devam et gibi ifaleder Boolean veri tipi kullanılmıştır.
+# Kurs isimleri String yapısında kullanılıyor. Kursun altındaki tamamlandığını gösteren sayı ise integer tipinde.
+
+
+usere = 'abc@hotmail.com'
+userp = 'abc'
+email=input("Emailinizi giriniz.")
+password=input("Sifrenizi giriniz")
+if usere == email and userp == password:
+     print("Siteye giriş sağlanıyor")
+else:
+    print("Email ya da şifre hatalı")
